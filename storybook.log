@@ -1,0 +1,109 @@
+yarn add v1.22.10
+[1/4] Resolving packages...
+warning storybook > @storybook/cli > jscodeshift > temp > rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
+warning @storybook/react-vite > @joshwooding/vite-plugin-react-docgen-typescript > glob@7.2.3: Glob versions prior to v9 are no longer supported
+[2/4] Fetching packages...
+info @esbuild/aix-ppc64@0.20.2: The platform "darwin" is incompatible with this module.
+info "@esbuild/aix-ppc64@0.20.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/aix-ppc64@0.20.2: The CPU architecture "arm64" is incompatible with this module.
+info @esbuild/android-arm@0.20.2: The platform "darwin" is incompatible with this module.
+info "@esbuild/android-arm@0.20.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/android-arm@0.20.2: The CPU architecture "arm64" is incompatible with this module.
+info @esbuild/android-arm64@0.20.2: The platform "darwin" is incompatible with this module.
+info "@esbuild/android-arm64@0.20.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/android-x64@0.20.2: The platform "darwin" is incompatible with this module.
+info "@esbuild/android-x64@0.20.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/android-x64@0.20.2: The CPU architecture "arm64" is incompatible with this module.
+info @esbuild/darwin-x64@0.20.2: The CPU architecture "arm64" is incompatible with this module.
+info "@esbuild/darwin-x64@0.20.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/freebsd-arm64@0.20.2: The platform "darwin" is incompatible with this module.
+info "@esbuild/freebsd-arm64@0.20.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/freebsd-x64@0.20.2: The platform "darwin" is incompatible with this module.
+info "@esbuild/freebsd-x64@0.20.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/freebsd-x64@0.20.2: The CPU architecture "arm64" is incompatible with this module.
+info @esbuild/linux-arm@0.20.2: The platform "darwin" is incompatible with this module.
+info "@esbuild/linux-arm@0.20.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-arm@0.20.2: The CPU architecture "arm64" is incompatible with this module.
+info @esbuild/linux-arm64@0.20.2: The platform "darwin" is incompatible with this module.
+info "@esbuild/linux-arm64@0.20.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-ia32@0.20.2: The platform "darwin" is incompatible with this module.
+info "@esbuild/linux-ia32@0.20.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-ia32@0.20.2: The CPU architecture "arm64" is incompatible with this module.
+info @esbuild/linux-loong64@0.20.2: The platform "darwin" is incompatible with this module.
+info "@esbuild/linux-loong64@0.20.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-loong64@0.20.2: The CPU architecture "arm64" is incompatible with this module.
+info @esbuild/linux-mips64el@0.20.2: The platform "darwin" is incompatible with this module.
+info "@esbuild/linux-mips64el@0.20.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-mips64el@0.20.2: The CPU architecture "arm64" is incompatible with this module.
+info @esbuild/linux-ppc64@0.20.2: The platform "darwin" is incompatible with this module.
+info "@esbuild/linux-ppc64@0.20.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-ppc64@0.20.2: The CPU architecture "arm64" is incompatible with this module.
+info @esbuild/linux-riscv64@0.20.2: The platform "darwin" is incompatible with this module.
+info "@esbuild/linux-riscv64@0.20.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-riscv64@0.20.2: The CPU architecture "arm64" is incompatible with this module.
+info @esbuild/linux-s390x@0.20.2: The platform "darwin" is incompatible with this module.
+info "@esbuild/linux-s390x@0.20.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-s390x@0.20.2: The CPU architecture "arm64" is incompatible with this module.
+info @esbuild/linux-x64@0.20.2: The platform "darwin" is incompatible with this module.
+info "@esbuild/linux-x64@0.20.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-x64@0.20.2: The CPU architecture "arm64" is incompatible with this module.
+info @esbuild/netbsd-x64@0.20.2: The platform "darwin" is incompatible with this module.
+info "@esbuild/netbsd-x64@0.20.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/netbsd-x64@0.20.2: The CPU architecture "arm64" is incompatible with this module.
+info @esbuild/openbsd-x64@0.20.2: The platform "darwin" is incompatible with this module.
+info "@esbuild/openbsd-x64@0.20.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/openbsd-x64@0.20.2: The CPU architecture "arm64" is incompatible with this module.
+info @esbuild/sunos-x64@0.20.2: The platform "darwin" is incompatible with this module.
+info "@esbuild/sunos-x64@0.20.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/sunos-x64@0.20.2: The CPU architecture "arm64" is incompatible with this module.
+info @esbuild/win32-arm64@0.20.2: The platform "darwin" is incompatible with this module.
+info "@esbuild/win32-arm64@0.20.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/win32-ia32@0.20.2: The platform "darwin" is incompatible with this module.
+info "@esbuild/win32-ia32@0.20.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/win32-ia32@0.20.2: The CPU architecture "arm64" is incompatible with this module.
+info @esbuild/win32-x64@0.20.2: The platform "darwin" is incompatible with this module.
+info "@esbuild/win32-x64@0.20.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/win32-x64@0.20.2: The CPU architecture "arm64" is incompatible with this module.
+info @rollup/rollup-android-arm-eabi@4.18.0: The platform "darwin" is incompatible with this module.
+info "@rollup/rollup-android-arm-eabi@4.18.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @rollup/rollup-android-arm-eabi@4.18.0: The CPU architecture "arm64" is incompatible with this module.
+info @rollup/rollup-android-arm64@4.18.0: The platform "darwin" is incompatible with this module.
+info "@rollup/rollup-android-arm64@4.18.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @rollup/rollup-darwin-x64@4.18.0: The CPU architecture "arm64" is incompatible with this module.
+info "@rollup/rollup-darwin-x64@4.18.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @rollup/rollup-linux-arm-gnueabihf@4.18.0: The platform "darwin" is incompatible with this module.
+info "@rollup/rollup-linux-arm-gnueabihf@4.18.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @rollup/rollup-linux-arm-gnueabihf@4.18.0: The CPU architecture "arm64" is incompatible with this module.
+info @rollup/rollup-linux-arm-musleabihf@4.18.0: The platform "darwin" is incompatible with this module.
+info "@rollup/rollup-linux-arm-musleabihf@4.18.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @rollup/rollup-linux-arm-musleabihf@4.18.0: The CPU architecture "arm64" is incompatible with this module.
+info @rollup/rollup-linux-arm64-gnu@4.18.0: The platform "darwin" is incompatible with this module.
+info "@rollup/rollup-linux-arm64-gnu@4.18.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @rollup/rollup-linux-arm64-musl@4.18.0: The platform "darwin" is incompatible with this module.
+info "@rollup/rollup-linux-arm64-musl@4.18.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @rollup/rollup-linux-powerpc64le-gnu@4.18.0: The platform "darwin" is incompatible with this module.
+info "@rollup/rollup-linux-powerpc64le-gnu@4.18.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @rollup/rollup-linux-powerpc64le-gnu@4.18.0: The CPU architecture "arm64" is incompatible with this module.
+info @rollup/rollup-linux-riscv64-gnu@4.18.0: The platform "darwin" is incompatible with this module.
+info "@rollup/rollup-linux-riscv64-gnu@4.18.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @rollup/rollup-linux-riscv64-gnu@4.18.0: The CPU architecture "arm64" is incompatible with this module.
+info @rollup/rollup-linux-s390x-gnu@4.18.0: The platform "darwin" is incompatible with this module.
+info "@rollup/rollup-linux-s390x-gnu@4.18.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @rollup/rollup-linux-s390x-gnu@4.18.0: The CPU architecture "arm64" is incompatible with this module.
+info @rollup/rollup-linux-x64-gnu@4.18.0: The platform "darwin" is incompatible with this module.
+info "@rollup/rollup-linux-x64-gnu@4.18.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @rollup/rollup-linux-x64-gnu@4.18.0: The CPU architecture "arm64" is incompatible with this module.
+info @rollup/rollup-linux-x64-musl@4.18.0: The platform "darwin" is incompatible with this module.
+info "@rollup/rollup-linux-x64-musl@4.18.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @rollup/rollup-linux-x64-musl@4.18.0: The CPU architecture "arm64" is incompatible with this module.
+info @rollup/rollup-win32-arm64-msvc@4.18.0: The platform "darwin" is incompatible with this module.
+info "@rollup/rollup-win32-arm64-msvc@4.18.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @rollup/rollup-win32-ia32-msvc@4.18.0: The platform "darwin" is incompatible with this module.
+info "@rollup/rollup-win32-ia32-msvc@4.18.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @rollup/rollup-win32-ia32-msvc@4.18.0: The CPU architecture "arm64" is incompatible with this module.
+info @rollup/rollup-win32-x64-msvc@4.18.0: The platform "darwin" is incompatible with this module.
+info "@rollup/rollup-win32-x64-msvc@4.18.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @rollup/rollup-win32-x64-msvc@4.18.0: The CPU architecture "arm64" is incompatible with this module.
+error @chromatic-com/storybook@1.5.0: The engine "yarn" is incompatible with this module. Expected version ">=1.22.18". Got "1.22.10"
+error Found incompatible module.
+info Visit https://yarnpkg.com/en/docs/cli/add for documentation about this command.

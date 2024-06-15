@@ -1,18 +1,13 @@
-export { default as Global } from './GlobalStyle';
+import './global.css';
 export { default as Button } from './components/Button';
-export { default as CheckBox } from './components/CheckBox';
 export { default as Icon } from './components/Icon/Icon';
-export { default as Input } from './components/Input';
-export { default as Radio } from './components/Radio';
-export { default as Tag } from './components/Tag';
-export { default as Text } from './components/Text';
 export * from './components/Icon/Icons';
 export * from './styles';
 
-export type TButtonSize = 'xs' | 'sm' | 'md' | 'lg' | 'xl';
-export type TButtonVariant = 'default' | 'outlined';
-export type TButtonColor = 'blue' | 'black';
-export type TFontSize =
+export type ButtonSize = 'xs' | 'sm' | 'md' | 'lg' | 'xl';
+export type ButtonVariant = 'default' | 'outlined';
+export type ButtonColor = 'blue' | 'black';
+export type FontSize =
   | 'h1'
   | 'h2'
   | 'h3'
@@ -22,5 +17,5 @@ export type TFontSize =
   | 'body2'
   | 'body3'
   | 'body4';
-export type TFontWeight = 'light' | 'regular' | 'medium' | 'bold';
-export type TInputSize = 'sm' | 'md' | 'lg' | 'xl';
+export type FontWeight = 'light' | 'regular' | 'medium' | 'bold';
+export type InputSize = 'sm' | 'md' | 'lg' | 'xl';

@@ -15,38 +15,46 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --emitDeclarationOnly & rollup -c",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.16.0",
-    "@rollup/plugin-commonjs": "^21.0.1",
-    "@rollup/plugin-node-resolve": "^13.0.6",
-    "@storybook/addon-actions": "^6.4.8",
-    "@storybook/addon-essentials": "^6.4.8",
-    "@storybook/addon-links": "^6.4.8",
-    "@storybook/addon-storysource": "^6.4.8",
-    "@storybook/react": "^6.4.8",
-    "babel-loader": "^8.2.3",
-    "babel-preset-react-app": "^10.0.0",
-    "chromatic": "^6.2.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "rollup": "^2.60.2",
+    "@chromatic-com/storybook": "^1.5.0",
+    "@rollup/plugin-commonjs": "^25.0.8",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@storybook/addon-essentials": "^8.1.5",
+    "@storybook/addon-interactions": "^8.1.5",
+    "@storybook/addon-links": "^8.1.5",
+    "@storybook/addon-onboarding": "^8.1.5",
+    "@storybook/blocks": "^8.1.5",
+    "@storybook/builder-vite": "^8.1.5",
+    "@storybook/react": "^8.1.5",
+    "@storybook/react-vite": "^8.1.5",
+    "@storybook/test": "^8.1.5",
+    "@types/node": "^20.14.1",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vanilla-extract/vite-plugin": "^4.0.10",
+    "@vitejs/plugin-react": "^4.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.18.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-typescript2": "^0.31.1",
-    "typescript": "^4.4.4"
+    "rollup-plugin-typescript2": "^0.36.0",
+    "storybook": "^8.1.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-tsconfig-paths": "^4.3.2"
   },
   "dependencies": {
-    "@emotion/babel-preset-css-prop": "^11.2.0",
-    "@emotion/react": "^11.7.0",
-    "@emotion/styled": "^11.6.0"
+    "@vanilla-extract/css": "^1.15.2",
+    "@vanilla-extract/recipes": "^0.5.3"
   },
   "peerDependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

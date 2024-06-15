@@ -1,48 +1,21 @@
-import React from 'react';
+import type { Meta, StoryObj } from '@storybook/react';
 import Button from '../components/Button';
 
-export default {
-  title: 'Components/Button',
+const meta: Meta<typeof Button> = {
+  /* 👇 The title prop is optional.
+   * See https://storybook.js.org/docs/7.0/react/configure/overview#configure-story-loading
+   * to learn how to generate automatic titles
+   */
+  title: 'components/Button',
   component: Button,
 };
 
-export const Default = () => <Button label="BUTTON" />;
+export default meta;
 
-export const Size = () => (
-  <div style={{ display: 'flex', alignItems: 'flex-end', columnGap: 10 }}>
-    <Button size="xl" label="버튼" />
-    <Button size="lg" label="버튼" />
-    <Button size="md" label="버튼" />
-    <Button size="sm" label="버튼" />
-    <Button size="xs" label="버튼" />
-  </div>
-);
+type Story = StoryObj<typeof Button>;
 
-export const Color = () => (
-  <div style={{ display: 'flex', alignItems: 'flex-end', columnGap: 10 }}>
-    <Button size="lg" label="버튼" color="blue" />
-    <Button size="lg" label="버튼" color="black" />
-  </div>
-);
-
-export const Disabled = () => (
-  <div style={{ display: 'flex', alignItems: 'flex-end', columnGap: 10 }}>
-    <Button size="xl" label="버튼" disabled />
-    <Button size="lg" label="버튼" disabled />
-    <Button size="md" label="버튼" disabled />
-    <Button size="sm" label="버튼" disabled />
-    <Button size="xs" label="버튼" disabled />
-  </div>
-);
-
-export const FullWidth = () => (
-  <div style={{ display: 'flex', alignItems: 'flex-end', columnGap: 10 }}>
-    <Button label="버튼" fullWidth />
-  </div>
-);
-
-// export const Default = Template.bind({});
-// Primary.args = {
-//   primary: true,
-//   label: 'Button',
-// };
+export const Default = {
+  args: {
+    label: 'zz',
+  },
+};
