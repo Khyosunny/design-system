@@ -1,4 +1,4 @@
-export { default as Global } from './GlobalStyle';
+import './global.css';
 export { default as Button } from './components/Button';
 export { default as CheckBox } from './components/CheckBox';
 export { default as Icon } from './components/Icon/Icon';
