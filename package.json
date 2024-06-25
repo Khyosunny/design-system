@@ -2,6 +2,7 @@
   "name": "hyosun-design-system",
   "version": "1.0.7",
   "description": "hyosun's design system",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/Khyosunny/hyosun-design-system.git"
@@ -16,7 +17,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --emitDeclarationOnly & rollup -c",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "tokens": "ts-node-esm -T ./scripts/transformFigmaTokens.ts"
   },
   "keywords": [],
   "author": "",
@@ -46,6 +48,7 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-typescript2": "^0.36.0",
     "storybook": "^8.1.9",
+    "ts-node": "^10.9.2",
     "typescript": "^5.4.5",
     "vite": "^5.3.1"
   },
